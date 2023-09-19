@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: yvmi
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-srqq-tenant/byoc-app-uxht/yvmi@sha256:669508221f38923369aa0e64d0e8da9b28445ec01ef0f2ec4cfb19c354e8ae93
         name: my-java-quarkus
         ports:
         - containerPort: 8081
